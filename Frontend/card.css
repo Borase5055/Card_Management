@@ -1,0 +1,172 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #1c1c1c;
+  color: white;
+  width: 186px;
+  height: 106px;
+  margin: auto;
+  margin-bottom: -36px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo .mono {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.logo .bank {
+  font-size: 9px;
+  color: #aaa;
+  margin-left: 2px;
+}
+
+.contactless {
+  font-size: 11px;
+  transform: rotate(90deg);
+}
+
+.chip {
+  width: 24px;
+  height: 16px;
+  background: linear-gradient(#d4d4d4, #a3a3a3);
+  border-radius: 5px;
+  margin-top: 6px;
+}
+
+.card-number {
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.valid-thru {
+  font-size: 5px;
+  margin-top: 5px;
+  margin-left: 105px;
+}
+
+.valid-thru strong {
+  display: block;
+  font-size: 8px;
+  display: inline;
+  margin-top: 0px;
+}
+
+.card-name {
+  margin-top: 6px;
+  font-size: 9.5px;
+  letter-spacing: 1.5px;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 114px;
+  margin-left: 140px;
+}
+
+.world {
+  font-size: 8px;
+  color: #aaa;
+  margin-top: -60px;
+  margin-left: 150px;
+}
+
+.mastercard {
+  position: relative;
+  width: 50px;
+  height: 30px;
+}
+
+.circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: -75px;
+  margin-left: 12px;
+  border-radius: 50%;
+  top: 0;
+}
+
+.red {
+  background: red;
+  left: 0;
+  opacity: 0.8;
+}
+
+.yellow {
+  background: orange;
+  left: 15px;
+  opacity: 0.8;
+}
+.form_container {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 1%;
+}
+.error {
+  color: red;
+  font-size: 10px;
+  margin-top: 4px;
+}
+.input_form {
+  display: flex;
+}
+.card_info_form {
+  margin: 10px;
+}
+
+.card_form {
+  margin-top: 40px;
+}
+.btn_container {
+  display: flex;
+  margin-left: 10px;
+}
+.btn {
+  color: white;
+  background-color: #5768e9;
+  margin-right: 10px;
+  border: #f4f6f6;
+  border-radius: 10px;
+}
+#color1 {
+  background-color: #121bd4;
+}
+#color2 {
+  color: #989494;
+  background-color: #f4f6f6;
+}
+
+#cardListSection {
+  width: 300px;
+  margin: 20px auto;
+}
+
+#cardList li {
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: monospace;
+}
