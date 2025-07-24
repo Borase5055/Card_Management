@@ -109,7 +109,7 @@ function addCardToDOM(card) {
   const li = document.createElement("li");
   li.textContent =
     `#${card.id} - ${card.cardNumberMasked} | ${card.cardholderName} | ${card.expiryMonth}/${card.expiryYear}`;
-  // cardList.appendChild(li);
+  cardList.appendChild(li);
 }
 
 /* ========= ADD CARD HANDLER ========= */
